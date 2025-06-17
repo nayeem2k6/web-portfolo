@@ -41,3 +41,53 @@ nav ul{
     border-radius: 2px;
 
 }
+.head{
+    color:#474747 ;
+    font-size: 45px;
+    font-weight: 600;
+}
+.top{
+   color:#181818 ;
+   font-size: 85px;
+   font-weight: 700;
+}
+.descripation{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+
+}
+.btn-pr{
+border-radius: 5px;
+
+background: rgb(253, 110, 10);
+
+}
+.btn-p{
+box-sizing: border-box;
+border: 1px solid rgb(253, 110, 10);
+border-radius: 5px;
+font-size: 20px;
+font-weight: 700;
+}
+.banar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 230px;
+}
+.contenir{
+    max-width: 480px;
+    
+}
+.img link{
+    max-width: 800px;
+    height: 200px;
+
+}
+.header{
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+
+
+}
