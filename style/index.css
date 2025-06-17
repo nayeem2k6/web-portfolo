@@ -1,10 +1,43 @@
 
 
 
-.cd{
-    color: brown;
-}
+
 /* nav style */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+.text-color{
+    color:#FD6E0A ;
+    
+}
+nav ul li {
+list-style: none;
+margin-right: 50px;
+
+}
+nav ul a {
+    text-decoration: none;
+}
+.dark-2{
+   color:#474747 ; 
+}
+nav ul{
+    display: flex;
+}
+.btn{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    color: white;
+    padding: 18 20px;
+    border-radius: 2px;
+
 }
